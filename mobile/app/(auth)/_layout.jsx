@@ -12,5 +12,5 @@ export default function AuthRoutesLayout() {
     return <Redirect href={'/'} />
   }
   // else, they will see sign-in, sign-up, or verify email page
-  return <Stack />
+  return <Stack screenOptions={{headerShown: false}} />
 }
