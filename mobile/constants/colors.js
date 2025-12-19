@@ -4,7 +4,7 @@ const coffeeTheme = {
     text: "#4A3428",
     border: "#E5D3B7",
     white: "#FFFFFF",
-    textLight: "#9A8478",
+    textLight: "#BAA69B",
     card: "#FFFFFF",
     shadow: "#000000",
   };
@@ -98,4 +98,4 @@ const coffeeTheme = {
   };
   
   // 👇 change this to switch theme
-  export const COLORS = THEMES.purple;
+  export const COLORS = THEMES.coffee;
